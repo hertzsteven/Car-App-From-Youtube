@@ -11,6 +11,8 @@
 		46941CF72C0C8DDE0035FFDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46941CF62C0C8DDE0035FFDF /* ContentView.swift */; };
 		46941CF92C0C8DE00035FFDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46941CF82C0C8DE00035FFDF /* Assets.xcassets */; };
 		46941CFC2C0C8DE00035FFDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46941CFB2C0C8DE00035FFDF /* Preview Assets.xcassets */; };
+		46941D032C0C9FEF0035FFDF /* NavigationStackModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46941D022C0C9FEF0035FFDF /* NavigationStackModifier.swift */; };
+		46941D052C0CB27C0035FFDF /* justcent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46941D042C0CB27C0035FFDF /* justcent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		46941CF62C0C8DDE0035FFDF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		46941CF82C0C8DE00035FFDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46941CFB2C0C8DE00035FFDF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		46941D022C0C9FEF0035FFDF /* NavigationStackModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackModifier.swift; sourceTree = "<group>"; };
+		46941D042C0CB27C0035FFDF /* justcent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = justcent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				46941CF42C0C8DDE0035FFDF /* Car_App_From_YoutubeApp.swift */,
 				46941CF62C0C8DDE0035FFDF /* ContentView.swift */,
+				46941D042C0CB27C0035FFDF /* justcent.swift */,
+				46941D022C0C9FEF0035FFDF /* NavigationStackModifier.swift */,
 				46941CF82C0C8DE00035FFDF /* Assets.xcassets */,
 				46941CFA2C0C8DE00035FFDF /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				46941CF72C0C8DDE0035FFDF /* ContentView.swift in Sources */,
+				46941D052C0CB27C0035FFDF /* justcent.swift in Sources */,
+				46941D032C0C9FEF0035FFDF /* NavigationStackModifier.swift in Sources */,
 				46941CF52C0C8DDE0035FFDF /* Car_App_From_YoutubeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

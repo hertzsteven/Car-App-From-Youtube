@@ -7,12 +7,39 @@
 
 import SwiftUI
 
-struct NavigationStackModifier: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct NavigationStackModifier: ViewModifier {
+    
+    func body(content: Content) -> some View {
+        content
+            .scrollIndicators(.hidden)
+            .background(Color(.systemGray6))
+            .ignoresSafeArea()
+        
+            .toolbar {
+                ToolbarItem(placement: .topBarLeading) {
+                    Circle()
+                        .fill(.white.opacity(0.2))
+                        .frame(width: 45, height: 45)
+                        .overlay {
+                            Image(systemName: "bell.badge")
+                                .foregroundStyle(.white)
+                        }
+                    
+                }
+                ToolbarItem(placement: .topBarTrailing) {
+                    Image(.stud01)
+                        .resizable()
+                        .frame(width: 45, height: 45)
+                        .scaledToFill()
+                        .clipShape(Circle())
+                    
+                }
+            }
     }
 }
 
-#Preview {
-    NavigationStackModifier()
+extension View {
+    func navigationStackModifier() -> some View {
+        return modifier(NavigationStackModifier())
+    }
 }
